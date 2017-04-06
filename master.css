@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Forza;
+    src: url(Forza-Medium.otf);
+}
+@font-face {
+    font-family: Forza-Book;
+    src: url(Forza-Book.otf);
+}
+body{
+    margin: 0;
+    font-style:normal;
+    font-family: Forza;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+
+    flex:1;
+}
+.usserpass-container{
+
+    flex: 1;
+}
+.emailCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.paswCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.ep{
+    margin-right: 20px;
+    margin-left: 50px;
+    letter-spacing: 0.05rem;
+
+    flex: 1;
+    color: #7D7773;
+
+}
+.inputC{
+     color: #9CCF8A;
+    flex: 2;
+    border: none;
+    border-bottom:1px solid #7D7773;
+
+}
+.bottomcontainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+.img{
+    align-self: center;
+    max-width: 30%;
+}
+.signIn{
+    margin: 0;
+    background-color: #9CCF8A;
+    padding:20px;
+}
+.signUp{
+    background-color: #7D7773;
+    padding: 20px;
+}
+.sign{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+    font-family: Forza-Book;
+    letter-spacing: 0.15rem;
+
+
+}
